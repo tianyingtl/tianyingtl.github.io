@@ -1,0 +1,7 @@
+/* 修改 source/css/custom.css */
+#page-header.post-bg {
+  height: 80vh !important;
+  background-size: contain !important; /* 核心魔法：完整显示，可能留白 */
+  background-position: top center !important; /* 顶部对齐 */
+  background-repeat: no-repeat !important; /* 防止图片太小而重复平铺 */
+}
