@@ -5,3 +5,17 @@
   background-position: top center !important; /* 顶部对齐 */
   background-repeat: no-repeat !important; /* 防止图片太小而重复平铺 */
 }
+/* 1. 让首页的文章卡片变成半透明 */
+#recent-posts > .recent-post-item {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* 2. 让文章详情页（也就是你截图里那一长块）变成半透明 */
+.layout > div:first-child:not(.recent-posts) {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* 3. 让右侧的侧边栏（头像、公告那些卡片）变成半透明 */
+.card-widget {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
